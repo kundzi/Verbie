@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+    <!-- button previous -->
+    <Button 
+        android:id="@+id/button_prev"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@android:drawable/ic_media_previous"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        />
+    
+    <!-- nav-discription -->
+    <TextSwitcher 
+        android:id="@+id/text_switcher"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/button_next"
+        android:layout_toRightOf="@+id/button_prev">
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text="oneoneone"/>
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text="twotwotwo"/>
+        
+        </TextSwitcher>
+    
+    <!-- button next -->
+    <Button 
+        android:id="@+id/button_next"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@android:drawable/ic_media_next"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        />
+
+</RelativeLayout>

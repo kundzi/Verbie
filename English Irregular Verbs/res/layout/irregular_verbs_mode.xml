@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_vertical">
+
+	<Button android:id="@+id/irverbs_button_reference"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/reference" android:onClick="startReference" />
+	<Button android:id="@+id/irverbs_button_flashcards"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/flash_cards" />
+	<Button android:id="@+id/irverbs_button_gueesmode"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/guess_mode" />
+
+</LinearLayout>

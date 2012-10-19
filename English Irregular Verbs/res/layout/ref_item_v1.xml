@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<by.kunin.android.langrescue.view.IrregularVerbView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView style="@style/style_ref_item_v1" android:id="@+id/item_infinitive" />
+
+	<TextView style="@style/style_ref_item_v1" android:id="@+id/item_simple" />
+
+	<TextView style="@style/style_ref_item_v1" android:id="@+id/item_participle" />
+
+</by.kunin.android.langrescue.view.IrregularVerbView>

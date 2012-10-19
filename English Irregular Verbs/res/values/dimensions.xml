@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="num_width">8sp</dimen>
+	<dimen name="sep_width">3sp</dimen>
+	<dimen name="sep_height">24sp</dimen>
+
+	<dimen name="small">14sp</dimen>
+	<dimen name="medium">18sp</dimen>
+	<dimen name="big">24sp</dimen>
+
+	<dimen name="def_padding">2sp</dimen>
+	
+	<dimen name="verbs_margin">2dp</dimen>
+	<dimen name="verbs_padding">2dp</dimen>
+</resources>

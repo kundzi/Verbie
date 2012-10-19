@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="style_ref_header" parent="android:Widget.TextView">
+		<item name="android:background">@color/gray</item>
+		<item name="android:textSize">@dimen/medium</item>
+		<item name="android:padding">@dimen/def_padding</item>
+		<item name="android:layout_margin">1sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/dark_yellow</item>
+	</style>
+
+	<style name="style_ref_header_adv" parent="android:Widget.TextView">
+		<item name="android:background">@color/half_purpple</item>
+		<item name="android:textSize">@dimen/medium</item>
+		<item name="android:padding">@dimen/def_padding</item>
+		<item name="android:layout_margin">1sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+
+	<style name="style_ref_item_v1" parent="android:Widget.TextView">
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_margin">1sp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:text">empty</item>
+		<item name="android:textSize">@dimen/small</item>
+		<item name="android:paddingLeft">5sp</item>
+		<item name="android:background">@android:color/white</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+	
+	<style name="lookup_button" parent="android:Widget.Button">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_margin">1sp</item>
+		<item name="android:textSize">@dimen/small</item>
+	</style>
+
+	<style name="VerbTextViewStyle" parent="android:Widget.TextView">
+		<item name="android:gravity">left</item>
+		<item name="android:layout_margin">@dimen/verbs_margin</item>
+		<item name="android:padding">@dimen/verbs_padding</item>
+		<item name="android:textColor">@color/verb_list_item_text_color</item>
+		<item name="android:textSize">@dimen/medium</item>
+	</style>
+</resources>

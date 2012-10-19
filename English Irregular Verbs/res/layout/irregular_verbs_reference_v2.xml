@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/light_blue">
+
+	<LinearLayout android:id="@+id/ref_header"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:background="@color/light_blue" android:orientation="horizontal">
+		<TextView style="@style/style_ref_header_adv"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:layout_weight="1" android:text="@string/infinitive" />
+		<TextView style="@style/style_ref_header_adv"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1" android:text="@string/past_simple" />
+		<TextView style="@style/style_ref_header_adv"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1" android:text="@string/past_participle" />
+	</LinearLayout>
+
+
+	<View android:background="@android:color/white"
+		android:layout_height="3sp" android:layout_width="fill_parent" />
+
+	<ListView 
+		android:layout_weight="9"
+		android:id="@android:id/list" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	</ListView>
+	
+	<View android:background="@color/half_purpple"
+		android:layout_height="3sp" android:layout_width="fill_parent" />
+	
+	<LinearLayout 
+		android:id="@+reference/lookup_bar"
+		android:layout_weight="1"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:gravity="center">
+		
+		<Button 
+			style="@style/lookup_button"
+			android:text="Hide panel"
+			android:onClick="switchLookup"/>
+		<Button 
+			style="@style/lookup_button"
+			android:text="Clear"
+			android:onClick="clearLookup"/>
+			
+		<EditText
+			android:id="@+reference/filter_text"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_margin="2sp"
+			android:singleLine="true"
+			android:hint="enter the verb"/>
+	</LinearLayout>	
+	
+</LinearLayout>

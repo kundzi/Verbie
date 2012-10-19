@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="TopicMenuItem">
+		<attr name="topicImage" format="reference" />
+		<attr name="topicTitle" format="string" />
+		<attr name="topicDescription" format="string" />
+		<attr name="topicTitleBackground" format="color" />
+		<attr name="topicDescriptionBackground" format="color" />
+	</declare-styleable>
+</resources>

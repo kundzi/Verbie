@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, LanguageRescueActivity!</string>
+	<string name="app_name">Irregular verbs reference</string>
+	<string name="topic_name">topic name</string>
+	<string name="descrition">description</string>
+
+	<string name="irregular_verbs">Irregular verbs</string>
+	<string name="desc_irverbs">Check reference, or study irregular verbs right
+		here.</string>
+	<string name="reference">Reference</string>
+	<string name="flash_cards">Flash cards</string>
+	<string name="guess_mode">Guess mode</string>
+	<string name="number"> _#_</string>
+	<string name="infinitive">infinitive</string>
+	<string name="past_simple">past\n simple</string>
+	<string name="past_participle">past\n participle</string>
+	<string name="enter_infinitive_here">enter infinitive here</string>
+
+	<string name="show_base_50_verbs">Show base 50 verbs</string>
+	<string name="show_all_verbs">Show all 136 verbs</string>
+	<string name="exit">Exit</string>
+
+	<string name="base_varbs_mess">50 irregular verbs</string>
+	<string name="all_varbs_mess">136 irregular verbs</string>
+	<string name="visit_app_homepage">Visit app homepage</string>
+	
+	<string name="mess_lookup_hidden">Look up panel hidden, you can restore it from menu</string>
+	<string name="menu_show_lookup">Show look up panel</string>
+	<string name="menu_hide_lookup">Hide look up panel</string>
+
+
+</resources>

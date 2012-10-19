@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="verbs">
+		<item>be was/were been</item>
+		<item>become became become</item>
+		<item>begin began begun</item>
+		<item>bring brought brought</item>
+		<item>buy bought bought</item>
+		<item>choose chose chosen</item>
+		<item>come came come</item>
+		<item>do did done</item>
+		<item>drink drank drunk</item>
+		<item>drive drove driven</item>
+	</string-array>
+</resources>

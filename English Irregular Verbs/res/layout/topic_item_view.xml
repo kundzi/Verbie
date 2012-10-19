@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Custom composite view for topic presentation in app -->
+<!-- TopicItemView layout file -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout android:id="@+id/topic_layout"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/topic_item_background"
+		android:minHeight="100dp">
+
+		<ImageView android:id="@+id/topic_image" android:src="@drawable/icon"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_margin="5dp" />
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_margin="5dp">
+
+			<TextView android:id="@+id/topic_title"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="topic name!" android:background="@color/topic_title_background"
+				android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+				android:textSize="@dimen/big" android:textColor="@color/topic_text_color" />
+
+			<TextView android:id="@+id/topic_description"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:padding="3dp" android:text="@string/descrition"
+				android:textSize="@dimen/small" android:gravity="right"
+				android:background="@color/topic_description_background"
+				android:textColor="@color/topic_text_color" />
+		</LinearLayout>
+	</LinearLayout>
+
+</merge>
