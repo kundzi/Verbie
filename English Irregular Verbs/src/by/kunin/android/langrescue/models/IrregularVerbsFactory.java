@@ -1,5 +1,3 @@
-// Developed for NVIDIA by Softeq Development Corporation
-// http://www.softeq.com
 package by.kunin.android.langrescue.models;
 
 import java.io.InputStream;

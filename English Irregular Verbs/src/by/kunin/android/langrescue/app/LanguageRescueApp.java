@@ -20,9 +20,9 @@ public class LanguageRescueApp extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		//TO-DO make dbOpened verbs
-		dbAdapter = new LangRescueDbAdapter(this);
-		irregularVerbs = dbAdapter.getVerbs(LangRescueDbAdapter.TABLE_0_NAME);
+		//TODO remove all this shit!
+//		dbAdapter = new LangRescueDbAdapter(this);
+//		irregularVerbs = dbAdapter.getVerbs(LangRescueDbAdapter.TABLE_0_NAME);
 	}
 	
 	public ArrayList<IrregularVerb> getVerds() {

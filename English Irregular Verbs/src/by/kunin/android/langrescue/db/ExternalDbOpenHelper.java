@@ -64,22 +64,17 @@ public class ExternalDbOpenHelper extends SQLiteOpenHelper {
 	}
 
 	private void copyDataBase() throws IOException {
-		// ��������� ����� ��� ������ �� ��� ��������� ���� ��
 		InputStream externalDbStream = context.getAssets().open(DB_NAME);
 
-		// ���� � ��� ��������� ������ ���� � ��������
 		String outFileName = DB_PATH + DB_NAME;
 
-		// ������ �������� ����� ��� ������ � ��� �� ��������
 		OutputStream localDbStream = new FileOutputStream(outFileName);
 
-		// ���������� �����������
 		byte[] buffer = new byte[1024];
 		int bytesRead;
 		while ((bytesRead = externalDbStream.read(buffer)) > 0) {
 			localDbStream.write(buffer, 0, bytesRead);
 		}
-		// �� ����� �������� ����������(���������) � ������� ������
 		localDbStream.close();
 		externalDbStream.close();
 
