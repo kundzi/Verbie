@@ -1,12 +1,9 @@
 package by.kunin.android.langrescue.storage;
 
-import android.app.Application;
-import android.content.Context;
-
-import by.kunin.android.langrescue.R;
-import by.kunin.android.langrescue.models.IrregularVerb;
-
 import java.util.ArrayList;
+
+import android.content.Context;
+import by.kunin.android.langrescue.models.IrregularVerb;
 
 public class IrregularVerbsRepository {
 	

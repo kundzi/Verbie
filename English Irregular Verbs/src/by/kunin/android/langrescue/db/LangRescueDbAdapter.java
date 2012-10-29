@@ -1,12 +1,11 @@
 package by.kunin.android.langrescue.db;
 
+import java.util.ArrayList;
+
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
 import by.kunin.android.langrescue.models.IrregularVerb;
-
-import java.util.ArrayList;
 
 public class LangRescueDbAdapter {
 	

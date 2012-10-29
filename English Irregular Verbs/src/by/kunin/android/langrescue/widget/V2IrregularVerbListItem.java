@@ -4,7 +4,6 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import by.kunin.android.langrescue.R;
 
 public class V2IrregularVerbListItem extends LinearLayout {

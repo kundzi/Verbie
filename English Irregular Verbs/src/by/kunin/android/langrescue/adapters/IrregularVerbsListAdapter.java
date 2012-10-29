@@ -1,14 +1,13 @@
 package by.kunin.android.langrescue.adapters;
 
+import java.util.List;
+
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-
 import by.kunin.android.langrescue.models.IrregularVerb;
 import by.kunin.android.langrescue.view.IrregularVerbView;
-
-import java.util.List;
 
 public class IrregularVerbsListAdapter extends ArrayAdapter<IrregularVerb> {
 	int resourceId;

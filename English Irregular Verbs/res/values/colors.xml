@@ -13,7 +13,7 @@
 	<color name="adv_blue">#00CCFF</color>
 	<color name="a3">#808080</color>
 	
-	<color name="verb_list_item_text_color">#ff000000</color>
+	<color name="verb_list_item_text_color">#fff</color>
 
 
 </resources>

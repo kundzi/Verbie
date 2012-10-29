@@ -59,8 +59,8 @@ public class IrregularVerb implements Serializable, Comparable<IrregularVerb> {
 	    
 	    IrregularVerb another = (IrregularVerb)obj;
 	    return equal(this.infinitive, another.infinitive) && 
-	           equal(this.pastSimple, another.pastSimple) &&
-	           equal(this.pastParticiple, another.pastParticiple);
+	            equal(this.pastSimple, another.pastSimple) &&
+	            equal(this.pastParticiple, another.pastParticiple);
 	}
 	
 	@Override

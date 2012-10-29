@@ -1,5 +1,7 @@
 package by.kunin.android.langrescue.activity;
 
+import java.util.ArrayList;
+
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -15,14 +17,11 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import by.kunin.android.langrescue.R;
 import by.kunin.android.langrescue.adapters.IrregularVerbsListAdapter;
 import by.kunin.android.langrescue.app.LanguageRescueApp;
 import by.kunin.android.langrescue.enums.LanguageLevel;
 import by.kunin.android.langrescue.models.IrregularVerb;
-
-import java.util.ArrayList;
 
 public class IrregularVerbsReferenceActivity extends ListActivity {
 
@@ -93,7 +92,6 @@ public class IrregularVerbsReferenceActivity extends ListActivity {
 		setContentView(layoutId);
 		setUpViews();
 		configViews();
-		verbs = ((LanguageRescueApp) getApplication()).getVerds();
 		fillTable();
 		registerForContextMenu(listView);
 		context = (LanguageRescueApp) getApplication();
@@ -130,7 +128,6 @@ public class IrregularVerbsReferenceActivity extends ListActivity {
 			return true;
 		}
 		case R.id.option_rate: {
-			context.goToHomePage();
 			return true;
 		}
 		}
@@ -178,7 +175,6 @@ public class IrregularVerbsReferenceActivity extends ListActivity {
 	private void changeLevel() {
 		level = level == LanguageLevel.BASE_LEVEL ? LanguageLevel.ADVANCED_LEVEL
 				: LanguageLevel.BASE_LEVEL;
-		((LanguageRescueApp) getApplication()).setVerbs(level);
 		onCreate(null);
 		Toast.makeText(this, levelChangedMessage, Toast.LENGTH_SHORT).show();
 	}
@@ -210,8 +206,6 @@ public class IrregularVerbsReferenceActivity extends ListActivity {
 			lookupMenuTitle = getResources().getString(
 					R.string.menu_show_lookup);
 		}
-
-		// ((MenuItem)findViewById(R.id.switch_lookupl)).setTitle(lookupMenuTitle);
 	}
 
 	private void fillTable() {
